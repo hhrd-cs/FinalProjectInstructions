@@ -2,8 +2,6 @@
 // - Add 4 ints storing the x & y positions and size of the platform
 // - Add a boolean for tracking whether the block has passed the player yet (for scoring)
 class Platform{
- int x, y, w, h;
- boolean passed = false;
  
  // - Create a constructor with the input parameters x, y, w, h
  Platform(){
@@ -23,7 +21,7 @@ class Platform{
  // - Create 2 variables distanceX and distanceY that store the distances
  // - Then create two booleans sotring whether the distances are greater that 
  //   - (the width of the block + the width of the player) divided by 2
- boolean isCollided(Player player){
+ boolean isCollided(){
    
  }
 }
