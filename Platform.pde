@@ -1,4 +1,5 @@
 //TODO #5: Finish the Platform class
+// Adding Instance Variables
 // - Add 4 ints storing the x & y positions and size of the platform
 // - Add a boolean for tracking whether the block has passed the player yet (for scoring)
 class Platform{
@@ -21,6 +22,7 @@ class Platform{
  // - Create 2 variables distanceX and distanceY that store the distances
  // - Then create two booleans sotring whether the distances are greater that 
  //   - (the width of the block + the width of the player) divided by 2
+ // - (Hint: Use your Homework)
  boolean isCollided(){
    
  }

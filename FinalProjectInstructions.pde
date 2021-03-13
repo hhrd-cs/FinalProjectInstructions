@@ -1,6 +1,6 @@
 // TODO #6: Adding some global variables
 // - Create an ArrayList of type platform (stores all the platforms we want to use)
-// - Create a Player 
+// - Create an instance of Player 
 // - Create variables representing the height & width of the screen
 // - Create variables representing the spawn coordinates of the plyaer
 // - Create an integer for the game timer (used to make the game harder as time goes on)
@@ -12,11 +12,11 @@
 // - Start Screen State set to 0
 // - Play Screen State set to 1
 // - End Screen State set to 2
-// - Create one integer that stores the current game state (default to start)
+// - Create one integer that stores the current game state (default value to start)
 
 // TODO #2: Setting up in setup
 // - Set the size of the canvas (19020 x 1080 recommended)
-// - Set the rectangle alignment to center
+// - Set the rectangle mode   to center
 // - Set the text alignment to center
 void setup() {
   
@@ -27,6 +27,7 @@ void setup() {
 // - Set it so that if the Game state is in the start state, then run drawStart
 // - Set it so that if the Game state is in the play state, then run drawPlay
 // - Set it so that if the Game state is in the end state, then run drawEnd
+// - (TODO #4 is located in the Player class top tab)
 void draw() {
 
 }

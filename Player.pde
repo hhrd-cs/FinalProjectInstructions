@@ -1,4 +1,5 @@
 // TODO #4: Finish the Player class
+// Adding Instance Variables
 // - Add 2 floats storing the x & y positions
 // - Add 1 float storing the velocity in the y direction
 // - Add 2 integers storing the width and height of the player
